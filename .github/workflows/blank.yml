@@ -1,0 +1,196 @@
+
+CEC CS 18 C40
+Munish 
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+abc.txt
+
+-------------------
+Remarks if any:
+
+
+#2: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -r
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+abc.txt
+
+-------------------
+Remarks if any:
+
+#3: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -t
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+abc.txt
+
+-------------------
+Remarks if any:
+
+#4: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -s
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+total 4
+4 abc.txt
+
+
+-------------------
+Remarks if any:
+
+#5: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ ls -l
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+total 4
+drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
+
+
+
+-------------------
+Remarks if any:
+
+#6: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -lt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+total 4
+drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
+
+
+-------------------
+Remarks if any:
+
+#7: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ls -ltr
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+total 4
+drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
+
+
+
+-------------------
+Remarks if any:
+
+#8: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+sort abc.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+hello
+hi
+there
+
+-------------------
+Remarks if any:
+
+#9: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+sort -n abc.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+hello
+hi
+there
+
+-------------------
+Remarks if any:
+
+#10: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+sort -nk7 abc.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+hello
+hi
+there
+
+-------------------
+Remarks if any:
