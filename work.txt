@@ -1,0 +1,1405 @@
+Script started on 2020-02-10 09:31:12+0530
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ss[K[Ksftp cs18c40@192.168.0.30dir[Kscript report.txtrsync worl.txt cs18c40@192.168.0.30:03302[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;03[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [Cysnc worl.txt cs18c40@192.168.0.30:03[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[15Psync -avh 0302/ test/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat >abc.txtssh cs18c40@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat>heloo[K[K[Kllo.txt
+ra  Ram   ram
+mohn an
+sg ham
+raju
+^C
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ cat hello.txt
+ram
+mohan
+sham
+raju
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ cat hello.txt>hello.txtsftp cs18c40@192.168.0.30dir[Kscript report.txtrsync worl.txt cs18c40@192.168.0.30:03302[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C;03[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [Cysnc worl.txt cs18c40@192.168.0.30:03[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[15Psync -avh 0302/ test/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat >abc.txt[K[K[K[K[K[K[K[K[K[K[K[Kssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ccadlab2
+ccadlab2: command not found
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ .ceccs18
+.ceccs18: command not found
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ cec[K[K[Kceccs18
+ceccs18: command not found
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ceccs18.ceccs18ccadlab2ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30ceccs18[Kssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ceccs18c40@192.168.0.30[1Ps18c40@192.168.0.30[1Pcs18c40@192.168.0.30[1Ps18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 11:35:37 2020 from 192.168.0.203
+$ ^[[A^[[A        ^[[A    exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1569) [client=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ 
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ 10. Every file shall bear your roll nummber a[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh cs18c40@192.168.0.30eccs18c40@192.168.0.30[3Ps18c40@192.168.0.30rsync[K[K[K[K[K[Kls[K[Kssh cs18c40@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 10 10:26:34 2020 from 192.168.0.203
+$ ls
+0302  examples.desktop
+$ pwd
+/home/cs18c40
+$ ping      r exit
+Connection to 192.168.0.30 closed.
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh cs18c40@192.168.0.30[Kssh cs18c40@192.168.0.30[Krsync
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1569) [client=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ry[Ksync -v
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1653) [Receiver=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -v[Kr
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1653) [Receiver=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -r
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1653) [Receiver=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ apt install rsync -y
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ apt install rsync -y[1@ [1@s[1@u[1@d[1@p[1P[1@o[1@ 
+[sudo] password for s4c2: 
+s4c2 is not in the sudoers file.  This incident will be reported.
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ cadlab2[K[K[K[K[K[K[Kapt install rsync -y[12Prsync -rv[Kssh cs18c40@192.168.0.30rsync[Kssh cs18c40@192.168.0.30eccs18c40@192.168.0.30[3Ps18c40@192.168.0.30rsync[Kssh cs18c40@192.168.0.30rsync[K -vrapt install rsync -y[Kapt install rsync -y[1@ [1@s[1@u[1@d[1@o[1@ 
+[sudo] password for s4c2: 
+Sorry, try again.
+[sudo] password for s4c2: 
+sudo: 1 incorrect password attempt
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -zv[Kavh /home/cecs[Kcs18c40 /p[Kopt/back up
+sending incremental file list
+rsync: link_stat "/home/ceccs18c40" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -zavh /home/ceccs18c40 /opt/backuup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs18c40 /opt/backup[K[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c40 /opt/backup [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+sending incremental file list
+rsync: link_stat "/home/cs18c40" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync
+rsync  version 3.1.2  protocol version 31
+Copyright (C) 1996-2015 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --copy-devices          copy device contents as regular file
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --stop-at=y-m-dTh:m     Stop rsync at year-month-dayThour:minute
+     --time-limit=MINS       Stop rsync after MINS minutes have elapsed
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1569) [client=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+64 bytes from 192.168.0.30: icmp_seq=1 ttl=64 time=0.738 ms
+64 bytes from 192.168.0.30: icmp_seq=2 ttl=64 time=0.861 ms
+64 bytes from 192.168.0.30: icmp_seq=3 ttl=64 time=0.852 ms
+64 bytes from 192.168.0.30: icmp_seq=4 ttl=64 time=0.867 ms
+64 bytes from 192.168.0.30: icmp_seq=5 ttl=64 time=0.866 ms
+64 bytes from 192.168.0.30: icmp_seq=6 ttl=64 time=0.911 ms
+64 bytes from 192.168.0.30: icmp_seq=7 ttl=64 time=0.912 ms
+64 bytes from 192.168.0.30: icmp_seq=8 ttl=64 time=0.777 ms
+64 bytes from 192.168.0.30: icmp_seq=9 ttl=64 time=0.855 ms
+^C
+--- 192.168.0.30 ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8105ms
+rtt min/avg/max/mdev = 0.738/0.848/0.912/0.064 ms
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync zavh [K[K[K[K[K-zvh /home/cs18c40 opt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct ?backup
+rsync: link_stat "/home/cs18c40" failed: No such file or directory (2)
+
+sent 16 bytes  received 12 bytes  56.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -zvh /home/cs18c40 opt??backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C?b[1Packup[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/?backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[1Pbackup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct/backup[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c40 opt/backup[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecs18c40 opt/backup[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c40 opt/backup[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+rsync: link_stat "/home/ceccs18c40" failed: No such file or directory (2)
+rsync: change_dir#3 "/home/s4c2/ceccs18c40/cs1002//opt" failed: No such file or directory (2)
+rsync error: errors selecting input/output files, dirs (code 3) at main.c(713) [Receiver=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ c[Kscp -c
+option requires an argument -- c
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp -o ssh_ceccs18c40
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp hello.txt ceccs18c40@192 .168.0.30: ceccs18[K[K[K[K[K[K[K[Khello.txt
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+Permission denied, please try again.
+ceccs18c40@192.168.0.30's password: 
+ceccs18c40@192.168.0.30: Permission denied (publickey,password).
+lost connection
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp hello.txt ceccs18c40@192..168.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[7P-o ssh_ceccs18c40
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chello.txt ceccs18c40@192..168.0.30:hello.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs18c40@192.1[1P68.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs18c40@192.16[1P8.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs18c40@192.168[1P.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+hello.txt                              0%    0     0.0KB/s   --:-- ETAhello.txt                            100%   20     1.7KB/s   00:00    
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp -v hello.txt cs18c40@192 .168.0.30
+Executing: cp '--' 'hello.txt' 'cs18c40@192.168.0.30'
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp -p hello.txt cs18c40@192 .169[K8.0.30
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp -p hello.txt cs18c40@192..168.0.30[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ sc[ --pv[K[K[Kpv hello.txt cs18c40@19 2.168.0.30
+> ^C
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ sc[ -pv hello.txt cs18c40@1922.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[Cp -p hello.txt cs18c40@192.[1P168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[Cv
+[C[C[C[C[C[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[Chello.txt cs18c40@192.168.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceccs18c40@192.168.0.30:hello.txt[K[K[K[K[K[K[K[K[K[K[K0[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs18c40@192.168.0.30:hello.txt[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C-v hello.txt cs18c40@192.[7P168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[Cp
+[C[C[C[C[C[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[ -pv hello.txt cs18c40@192.168.0.30[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -pv hello.txt cs18c40@192.[1P168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[Cp -pv hello.txt cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C
+
+Executing: cp '-p' '--' 'hello.txt' 'cs18c40@192.168.0.30'
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ct[K[Kcat>report.txt
+
+^C
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -z[Kv hello.txt /tmp/back ups/
+created directory /tmp/backups
+hello.txt
+
+sent 107 bytes  received 70 bytes  354.00 bytes/sec
+total size is 20  speedup is 0.11
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [K]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -v hello.txt /tmp/backuups/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C hello.txt /tmp/backup[1Ps/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cr hello.txt /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C
+
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -r hello.txt /tmp/backuups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cv
+[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C hello.txt /tmp/backup[1Ps/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Ca hello.txt /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C
+
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -zvh hello.xtt[K[K[Ktxt /tmp/ba ckups/
+
+sent 44 bytes  received 12 bytes  112.00 bytes/sec
+total size is 20  speedup is 0.36
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -zvh hello.txt /tmp/bacckups/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp /tmp/backups/m /tmp/backups/[Cp /tmp/backups/[C[Ck /tmp/backups/[C[C[Cg /tmp/backups/[C[C[C[Cs /tmp/backups/[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmp[1P[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpk[1P[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkg[1P[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs[1P /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs [1P/tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs /[1Ptmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs /t[1Pmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs /tm[1Pp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C/root/rpmpkgs /tmp[1P/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[Cazvh /root/rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C
+
+sending incremental file list
+rsync: change_dir "/root" failed: Permission denied (13)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsyns[K[K[K[K[Krsync -azvh /root/rpmpkgs /tmmp/backups/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /root/rpmpkgs /tmp[1P/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C /root/rpmpkgs /tmp/[1Pbackups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C /root/rpmpkgs /tmp/b[1Packups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[Cv /root/rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[Cz /root/rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/[1Pbackups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/b[1Packups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/ba[1Pckups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/bac[1Pkups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cpmpkgs /tmp/back[1Pups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/backu[1Pps/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[Crpmpkgs /tmp/backup[1Ps/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -avz rpmpkgs /tmp/backuups/[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcs18c40@1 68.0[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 92.168.0.30
+sending incremental file list
+rsync: link_stat "/home/s4c2/ceccs18c40/cs1002/rpmpkgs" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -avz rpmpkgs cs18c40@1992.168.0.30:home/home[C[C[C[C/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+sending incremental file list
+rsync: link_stat "/home/s4c2/ceccs18c40/cs1002/rpmpkgs" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  0.87 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -avz rpmpkgs cs18c40@1992.168.0.30:/home/
+
+^Crsync error: received SIGINT, SIGTERM, or SIGHUP (code 20) at rsync.c(644) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -avz rpmpkgs cs18c40@1992.168.0.30:/home/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+sending incremental file list
+rsync: link_stat "/home/s4c2/ceccs18c40/cs1002/rpmpkgs" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  4.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1196) [sender=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -avzhe sh[Ksh cs18c40@192 .168.0.40:/cs18c40/install.log /tmp/
+ssh: connect to host 192.168.0.40 port 22: No route to host
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(235) [Receiver=3.1.2]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ 
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ rsync -avzhe ssh cs18c40@192..168.0.40:/cs18c40/install.log /tmp/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C rpmpkgs cs18c40@19[18P2.168.0.30:/home/[K[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[Czvh /root/rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Czvh hello.txt /tmp/bac[5Pkups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Ca hello.txt /tmp/backu[2Pps/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cr
+[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cv
+[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [14Pcat>report.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -v hello.txt /tmp/backuups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cr
+[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Ca
+[C[C[C[C[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Czvh hello.txt /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[Cazvh /root/rpmpkgs /tmp/backups/[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[Cvz rpmpkgs cs18c40@192.168.0.30[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192[1P.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.[1P168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.1[1P68.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.16[1P8.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168[1P.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.[1P0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.0[1P.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C- cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C- cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[Cd cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ce cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce cs18c40@192.168.0.30[A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+sending incremental file list
+-rw-r--r--             20 2020/02/10 09:32:48 cs18c40@192.168.0.30
+
+sent 71 bytes  received 83 bytes  308.00 bytes/sec
+total size is 20  speedup is 0.13
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$  scp
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file]
+           [-J [user@]host[:port]] [-L address] [-l login_name] [-m mac_spec]
+           [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address]
+           [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+           [user@]hostname [command]
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh test.server.com
+^C
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh 192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4c2@192.168.0.30's password: 
+Permission denied, please try again.
+s4c2@192.168.0.30's password: 
+Permission denied, please try again.
+s4c2@192.168.0.30's password: 
+
+[1]+  Stopped                 ssh 192.168.0.30
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp hello.txt 192.168.0.30:/ home/test/ceccs18c40
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+s4c2@192.168.0.30's password: 
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh ls
+hdssudh       ssh: Could not resolve hostname ls: Name or service not known
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ^C
+]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ ssh 1lscp hello.txt 192.168.0.30:/hhome/test/ceccs18c40[1Ps18c40[1Pcs18c40[1Ps18c40[C[C[C[C[C[C[C/
+hgguiguig         
+
+
+
+
+^C]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp hello.txt 192.168.0.30:/hhome/test/cs18c40/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 [A
+
+^C]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ scp hello.txt 192.168.0.30:0 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2.168.0.30:0
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0[1P2.168.0.30:0 2.168.0.30:0c2.168.0.30:0s2.168.0.30:012.168.0.30:082.168.0.30:0c2.168.0.30:0@2.168.0.30:04@2.168.0.30:00@2.168.0.30:0[C12.168.0.30:092.168.0.30:0 [A]0;s4c2@dell-Vostro-3470: ~/ceccs18c40/cs1002[01;32ms4c2@dell-Vostro-3470[00m:[01;34m~/ceccs18c40/cs1002[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P0
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
