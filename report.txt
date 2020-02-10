@@ -1,195 +1,228 @@
 CEC CS 18 C40
-Munish 
+MUNISH KUMAR
 
 --------------------------------
 #1: Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls
+ ssh cs18c40@192.168.0.30
+.
+              |
+
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-abc.txt
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+
+
 
 -------------------
 Remarks if any:
 
 
+
+
+
+-------------------------------------
+-------------------------------------
 #2: Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls -r
+ rsync -v hello.txt /tmp/backups/
+
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-abc.txt
+created directory /tmp/backups
+hello.txt
+
+sent 107 bytes  received 70 bytes  354.00 bytes/sec
+total size is 20  speedup is 0.11
+
 
 -------------------
 Remarks if any:
 
-#3: Aim/task
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#3:Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls -t
+ rsync -zvh hello.txt /tmp/backups/
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-abc.txt
+sent 44 bytes  received 12 bytes  112.00 bytes/sec
+total size is 20  speedup is 0.36
 
 -------------------
 Remarks if any:
 
-#4: Aim/task
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#4:Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls -s
+rsync -avz --delete cs18c40@192.168.0.30
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-total 4
-4 abc.txt
+sending incremental file list
+-rw-r--r--             20 2020/02/10 09:32:48 cs18c40@192.168.0.30
 
+sent 71 bytes  received 83 bytes  308.00 bytes/sec
+total size is 20  speedup is 0.13
 
 -------------------
 Remarks if any:
 
-#5: Aim/task
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#5:Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- ls -l
+ scp
+
 --------------------------------
 Output: or Input & Output (whichever is applicable)
-total 4
-drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
 
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
 
 
 -------------------
 Remarks if any:
 
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------Executing: cp '-p' '--' 'hello.txt' 'cs18c40@192.168.0.30'
+------
 #6: Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls -lt
+scp hello.txt ceccs18c40@192.168.0.30:hello.txt
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-total 4
-drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
-
-
+             |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+hello.txt                            100%   20     1.7KB/s   00:00  
 -------------------
 Remarks if any:
 
+
+
+
+
+-------------------------------------
+-------------------------------------
+--------------------------------
 #7: Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-ls -ltr
+scp -v hello.txt cs18c40@192.168.0.30
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
-total 4
-drwxr-xr-x 2 s4c2 s4c2 4096 Feb  3 10:14 abc.txt
 
-
+Executing: cp '--' 'hello.txt' 'cs18c40@192.168.0.30'
 
 -------------------
 Remarks if any:
 
+
+
+
+
+-------------------------------------
+-------------------------------------
+--------------------------------
 #8: Aim/task
 ---------------------------------
-Command/Shell script/Program name
+Networking task
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-sort abc.txt
+ scp -pv hello.txt cs18c40@192.168.0.30
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-hello
-hi
-there
+Executing: cp '-p' '--' 'hello.txt' 'cs18c40@192.168.0.30'
 
 -------------------
 Remarks if any:
 
-#9: Aim/task
----------------------------------
-Command/Shell script/Program name
 
----------------------------------
 
-Input: (If relevant)
----------------
-sort -n abc.txt
 
---------------------------------
-Output: or Input & Output (whichever is applicable)
 
-hello
-hi
-there
-
--------------------
-Remarks if any:
-
-#10: Aim/task
----------------------------------
-Command/Shell script/Program name
-
----------------------------------
-
-Input: (If relevant)
----------------
-sort -nk7 abc.txt
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-hello
-hi
-there
-
--------------------
-Remarks if any:
+-------------------------------------
+-------------------------------------
