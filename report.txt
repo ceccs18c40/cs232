@@ -1,58 +1,42 @@
-CEC CS 18 C40
-MUNISH KUMAR
+CEC CS 18 40
+Munish Kumar
 
 --------------------------------
-#1: Aim/task
+#1: Networking Task
 ---------------------------------
-Networking task
+ifconfig,route,/etc/resolv.conf
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- ssh cs18c40@192.168.0.30
-.
-              |
+ ifconfig
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
-
-usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
-           [-l limit] [-o ssh_option] [-P port] [-S program]
-           [[user@]host1:]file1 ... [[user@]host2:]file2
-
-
-
+eth0
+lo
 
 -------------------
 Remarks if any:
-
-
+-------------------------------------
 
 
 
 -------------------------------------
--------------------------------------
-#2: Aim/task
+#2:Networking Task
 ---------------------------------
-Networking task
-
+ ifconfig
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- rsync -v hello.txt /tmp/backups/
-
+ifconfig -a
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-created directory /tmp/backups
-hello.txt
-
-sent 107 bytes  received 70 bytes  354.00 bytes/sec
-total size is 20  speedup is 0.11
-
-
+eth0
+lo
 -------------------
 Remarks if any:
 
@@ -63,22 +47,19 @@ Remarks if any:
 -------------------------------------
 -------------------------------------
 
-#3:Aim/task
+#3:Networking Task
 ---------------------------------
-Networking task
 
+ifconfig
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- rsync -zvh hello.txt /tmp/backups/
-
+ ip addr show
 --------------------------------
 Output: or Input & Output (whichever is applicable)
-
-sent 44 bytes  received 12 bytes  112.00 bytes/sec
-total size is 20  speedup is 0.36
-
+lo: inet 127.0.0.1/8
+eth0: inet 192.168.0.66
 -------------------
 Remarks if any:
 
@@ -89,25 +70,20 @@ Remarks if any:
 -------------------------------------
 -------------------------------------
 
-#4:Aim/task
+#4: Networking Task
 ---------------------------------
-Networking task
+ifconfig
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-rsync -avz --delete cs18c40@192.168.0.30
-
+ip link show
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-sending incremental file list
--rw-r--r--             20 2020/02/10 09:32:48 cs18c40@192.168.0.30
-
-sent 71 bytes  received 83 bytes  308.00 bytes/sec
-total size is 20  speedup is 0.13
-
+ lo: link/loopback 00:00:00:00:00:00
+ eth0: link/ether 10:78:d2:3e:28:0e
 -------------------
 Remarks if any:
 
@@ -118,23 +94,90 @@ Remarks if any:
 -------------------------------------
 -------------------------------------
 
-#5:Aim/task
+#5:Networking Task
 ---------------------------------
-Networking task
+
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- scp
-
+ ping  192.168.0.0
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
-           [-l limit] [-o ssh_option] [-P port] [-S program]
-           [[user@]host1:]file1 ... [[user@]host2:]file2
+ ping  192.168.0.0
+-------------------
+Remarks if any:
 
+
+
+
+
+-------------------------------------
+-------------------------------------
+6:Networking Task
+---------------------------------
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ ping  192.168.0.0
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+Do you want to ping broadcast? Then -b
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+7:Networking Task
+---------------------------------
+
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ ping -b  192.168.0.0
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+WARNING: pinging broadcast address
+PING 192.168.0.0 (192.168.0.0) 56(84) bytes of data.
+....so on
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+8: Networking Task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+route
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
 
 -------------------
 Remarks if any:
@@ -145,52 +188,22 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
-
---------------------------Executing: cp '-p' '--' 'hello.txt' 'cs18c40@192.168.0.30'
-------
-#6: Aim/task
+#9: Networking Task
 ---------------------------------
-Networking task
+Command/Shell script/Program name
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
-scp hello.txt ceccs18c40@192.168.0.30:hello.txt
-
+route -n
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-             |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs18c40@192.168.0.30's password: 
-hello.txt                            100%   20     1.7KB/s   00:00  
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
---------------------------------
-#7: Aim/task
----------------------------------
-Networking task
-
----------------------------------
-
-Input: (If relevant)
----------------
-scp -v hello.txt cs18c40@192.168.0.30
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-Executing: cp '--' 'hello.txt' 'cs18c40@192.168.0.30'
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.254.0   U     1      0        0 eth0
 
 -------------------
 Remarks if any:
@@ -201,21 +214,21 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
---------------------------------
-#8: Aim/task
+#10: Networking Task
 ---------------------------------
-Networking task
+
 
 ---------------------------------
 
 Input: (If relevant)
 ---------------
- scp -pv hello.txt cs18c40@192.168.0.30
+  sudo route add-net 192.168.0.0 netmask gw 192.168.0.02 
+
 
 --------------------------------
 Output: or Input & Output (whichever is applicable)
 
-Executing: cp '-p' '--' 'hello.txt' 'cs18c40@192.168.0.30'
+s4c1 is not in the sudoers file.  This incident will be reported.
 
 -------------------
 Remarks if any:
@@ -226,3 +239,58 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
+#11: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ cat /etc/resolv.conf
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+nameserver 127.0.0.1
+search example.org
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#12: Networking Task
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+ /etc/resolv.conf/resolv.conf d/head 
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+ /etc/resolv.conf/resolv.conf d/head 
+
+-------------------
+Remarks if any:
+
+
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+

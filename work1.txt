@@ -1,0 +1,22 @@
+Script started on Tuesday 20 December 2011 06:34:26 AM IST
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ sftp [K[K[K[K[Kexitping google.comcat /etc/resolv.conf[5Pping google.comexit[K[Kexitping google.comcat /etc/resolv.confsudo /etc/resolv.conf/resolv.coonf d/head [A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ /etc/resolv.conf/resolv.conf d/[6Phead[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ sudo /etc/resolv.conf/resolv.conf d/head [A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [10Pcat /etc/resolv.conf
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pping google.comexit[K[Ksftp cs12[K8c40@192.168.9[K[K.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c40@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 1002
+sftp> cd 1002
+sftp> pwd
+Remote working directory: /home/cs18c40/1002
+sftp> lls
+report1.txt  report.txt  work1.txt  work.txt
+sftp> put report1.txt
+Uploading report1.txt to /home/cs18c40/1002/report1.txt
+report1.txt                                     0%    0     0.0KB/s   --:-- ETAreport1.txt                                   100% 2525     2.5KB/s   00:00    
+sftp> quit
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ exit
+Script done on Monday 24 February 2020 11:23:06 AM IST
