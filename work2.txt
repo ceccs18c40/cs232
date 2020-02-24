@@ -1,5 +1,5 @@
-Script started on Monday 24 February 2020 11:45:39 AM IST
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ ssh
+Script started on Monday 02 March 2020 09:15:39 AM IST
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ ssh
 usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-D [bind_address:]port] [-e escape_char] [-F configfile]
            [-I pkcs11] [-i identity_file]
@@ -8,19 +8,23 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-R [bind_address:]port:host:hostport] [-S ctl_path]
            [-W host:port] [-w local_tun[:remote_tun]]
            [user@]hostname [command]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ ssh 192.168.0.30
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ 
+[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ ssh 192.168.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 s4c1@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 s4c1@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 s4c1@192.168.0.30's password: 
-Permission denied (publickey,password).
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ ssh 192.168.0.30[K 192.168.0.30[Kssh 192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K ib[K[K-b
+Permission denied (publickey,password).
+
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ ssh 192.168.0.30[K 192.168.0.30[Kssh 192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K ib[K[K-b
 ssh: option requires an argument -- b
 usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-D [bind_address:]port] [-e escape_char] [-F configfile]
@@ -30,7 +34,7 @@ usage: ssh [-1246AaCfgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
            [-R [bind_address:]port:host:hostport] [-S ctl_path]
            [-W host:port] [-w local_tun[:remote_tun]]
            [user@]hostname [command]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ ssh -b192.168.0.30[Kss[K[K cs18c40@192.168,[K.0.30
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ ssh -b192.168.0.30[Kss[K[K cs18c40@192.168,[K.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -44,7 +48,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 10 10:29:29 2020 from 192.168.0.203
+Last login: Mon Feb 24 10:29:29 2020 from 192.168.0.203
+
 $ ls
 0302  1002  2402  examples.desktop  hello.txt
 $ dir
@@ -77,22 +82,23 @@ The key's randomart image is:
 $ ssh -cop     -copy-192.168.0.30
 -sh: 5: ssh-copy-192.168.0.30: not found
 $ ^[[A^[[B        ssh-    C exit
-Connection to 192.168.0.30 closed.
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp
+Connection to 192.168.0.30 closed.
+
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp
 usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
            [-l limit] [-o ssh_option] [-P port] [-S program]
            [[user@]host1:]file1 ... [[user@]host2:]file2
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp[K[K[Kls
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp[K[K[Kls
 report1.txt  report.txt  work1.txt  work2.txt  work.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp [K[K[K[Kcat abc.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp [K[K[K[Kcat abc.txt
 cat: abc.txt: No such file or directory
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ touch abs[Kc.txt
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ gedit abc.txt
-hello bai
-^C
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ cat abc.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ touch abs[Kc.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ cat abc.txt
 hello bhai 
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt ce[K[Kcs18c40[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/ce ccs18c40/232
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp abc.txt ce[K[Kcs18c40
+[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp abc.txt cs18c40
+[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ scp abc.txt cs18c40@192.168.0.30:/home/ce 
+ccs18c40/232
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -100,7 +106,8 @@ hello bhai
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c40@192.168.0.30's password: 
 scp: /home/ceccs18c40/232: No such file or directory
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/cecccs18c40/232[C[K[K[K[K
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0302s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0302$ scp abc.txt cs18c40@192.168.0.30:/home/cec
+ccs18c40/232[C[K[K[K[K
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -108,8 +115,12 @@ scp: /home/ceccs18c40/232: No such file or directory
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c40@192.168.0.30's password: 
 scp: /home/ceccs18c40: Permission denied
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/cecccs18c40[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kde sktop
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/cec
+ccs18c40[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kde 
+sktop
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -117,9 +128,15 @@ scp: /home/ceccs18c40: Permission denied
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c40@192.168.0.30's password: 
 scp: /home/desktop: Permission denied
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/dessktop[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[C[C[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Ke/ce c18[Kcs18c40
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ scp abc.txt cs18c40@192.168.0.30:/home/des
+sktop
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[C[C[C[C[C[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Ke/ce 
+c18[Kcs18c40
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -127,7 +144,8 @@ scp: /home/desktop: Permission denied
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c40@192.168.0.30's password: 
 scp: /home/cec1cs18c40: Permission denied
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ sudo bvim[K[K[K[Kvim/etc/ssh/sshd_config
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ 
+[K]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ sudo bvim[K[K[K[Kvim/etc/ssh/sshd_config
 [sudo] password for s4c1: 
 s4c1 is not in the sudoers file.  This incident will be reported.
 ]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ sudo vim/etc/ssh/sshd_config
@@ -445,7 +463,8 @@ rsync: change_dir "/root" failed: Permission denied (13)
 sent 12 bytes  received 12 bytes  48.00 bytes/sec
 total size is 0  speedup is 0.00
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync rpmpkgs/ cs18c40@192.168.0.30: [K/home /
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync rpmpkgs/ cs18c40@192.168.0.30: [K/home 
+/
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -454,7 +473,8 @@ rsync error: some files/attrs were not transferred (see previous errors) (code 2
 cs18c40@192.168.0.30's password: 
 rsync: change_dir "/home/s4c1/ceccs18c40/cs232/2402//rpmpkgs" failed: No such file or directory (2)
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzh cs18c40@192.168.0.30:/home/ce ccs18c40/rpmpkgs /tmp/backups
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzh cs18c40@192.168.0.30:/home/ce 
+ccs18c40/rpmpkgs /tmp/backups
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -467,33 +487,59 @@ rsync: change_dir "/home/ceccs18c40" failed: No such file or directory (2)
 sent 8 bytes  received 12 bytes  3.64 bytes/sec
 total size is 0  speedup is 0.00
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1536) [Receiver=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzh cs18c40@192.168.0.30:/home/cecccs18c40/rpmpkgs /tmp/backups[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.0.30:/home/ce[C[1@c[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[Cs cs18c40@192.168.0.30:/home/c[1@e[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs cs18c40@192.168.0.30:/home/[1@c[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ch cs18c40@192.168.0.30:/home[1@/[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.0.30:/hom[1@e[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -avzh ssh  cs18c40@192.168.0.30:/homme/ceccs18c40/rpmpkgs /tmp/backups[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cme[1P[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cme/[1P[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccme[1@/[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cem[1@e[1@c[1@c[1@s[1@1[1@8[1@c[1@4[1@0[1@/[1@i[1@n[1@s[1@t[1@a[1@l[1@l[1@.[1@l[1@o[1@g[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1Ptmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1Ptmp/backups[1P/tmp/backups[1P/tmp/backups
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzh cs18c40@192.168.0.30:/home/cec
+ccs18c40/rpmpkgs /tmp/backups
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.0.30:/home/ce[C[1@c[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[Cs cs18c40@192.168.0.30:/home/c[1@e[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[Cs cs18c40@192.168.0.30:/home/[1@c[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ch cs18c40@192.168.0.30:/home[1@/[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cs18c40@192.168.0.30:/hom[1@e[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crsync -avzh ssh  cs18c40@192.168.0.30:/hom
+me/ceccs18c40/rpmpkgs /tmp/backups
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cme[1P[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cme/[1P[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccme[1@/[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cem[1@e
+[1@c[1@c[1@s[1@1[1@8[1@c[1@4[1@0[1@/[1@i[1@n[1@s[1@t[1@a[1@l[1@l[1@.[1@l[1@o[1@g[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1Ptmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1P/tmp/backups[1Ptmp/backups[1P/tmp/backups[1P/tmp/backups
 Unexpected remote arg: cs18c40@192.168.0.30:/ceccs18c40/install.log
 rsync error: syntax or usage error (code 1) at main.c(1232) [sender=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzh ssh  cs18c40@192.168.0.30:/cecccs18c40/install.log /tmp/backups[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs[1P[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs1[1P[A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ rsync -avzh ssh  cs18c40@192.168.0.30:/cec
+ccs18c40/install.log /tmp/backups[1P
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs[1P[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs1[1P[A
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
 Unexpected remote arg: cs18c40@192.168.0.30:/cs18c40/install.log
 rsync error: syntax or usage error (code 1) at main.c(1232) [sender=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ rsync -avzhe ssh backup.tar cs18c40@192.1 68.0.30:/backups
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ rsync -avzhe ssh backup.tar cs18c40@192.1 
+68.0.30:/backups
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c40@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c40@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c40@192.168.0.30's password: 
 sending incremental file list
-rsync: link_stat "/home/s4c1/ceccs18c40/cs232/2402/backup.tar" failed: No such file or directory (2)
+rsync: link_stat "/home/s4c1/ceccs18c40/cs232/0203/backup.tar" failed: No such file or directory (2)
 
 sent 12 bytes  received 12 bytes  0.81 bytes/sec
 total size is 0  speedup is 0.00
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1070) [sender=3.0.9]
-]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/2402s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/2402$ exit
-Script done on Monday 24 February 2020 12:08:04 PM IST
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c40/cs232/0203s4c1@lab2-Veriton-Series:~/ceccs18c40/cs232/0203$ exit
+Script done on Monday 02 March 2020 09:30:04 PM IST
