@@ -1,296 +1,75 @@
-CEC CS 18 40
-Munish Kumar
-
---------------------------------
-#1: Networking Task
+CEC CS 18 C40
+MUNISH KUMAR
+--------------------------------------
+#1: Basic Calculator
+--------------------------------------
+Input: 
+---------------------
+./calculator
+--------------------------------------
+Output: 
+Enter a number :
+2
+3
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Division
+4. Multiplication
+1
+5 #this is output
+-----------------------
+Input: 
+---------------------
+./calculator
+--------------------------------------
+Output: 
+Enter a number :
+2
+3
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Division
+4. Multiplication
+2
+-1 #this is output
 ---------------------------------
-ifconfig,route,/etc/resolv.conf
-
----------------------------------
-
-Input: (If relevant)
----------------
- ifconfig
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-eth0
-lo
-
--------------------
+Input: 
+---------------------
+./calculator
+--------------------------------------
+Output: 
+Enter a number :
+2
+3
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Division
+4. Multiplication
+3
+0 #this is output
+--------------------------------------
+Input: 
+---------------------
+./calculator
+--------------------------------------
+Output: 
+Enter a number :
+2
+3
+Enter Choice :
+1. Addition
+2. Subtraction
+3. Division
+4. Multiplication
+4
+6 #this is output
+----------------------------------------
 Remarks if any:
--------------------------------------
-
-
-
--------------------------------------
-#2:Networking Task
----------------------------------
- ifconfig
----------------------------------
-
-Input: (If relevant)
----------------
-ifconfig -a
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-eth0
-lo
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-
-#3:Networking Task
----------------------------------
-
-ifconfig
----------------------------------
-
-Input: (If relevant)
----------------
- ip addr show
---------------------------------
-Output: or Input & Output (whichever is applicable)
-lo: inet 127.0.0.1/8
-eth0: inet 192.168.0.66
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-
-#4: Networking Task
----------------------------------
-ifconfig
-
----------------------------------
-
-Input: (If relevant)
----------------
-ip link show
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
- lo: link/loopback 00:00:00:00:00:00
- eth0: link/ether 10:78:d2:3e:28:0e
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-
-#5:Networking Task
----------------------------------
-
-
----------------------------------
-
-Input: (If relevant)
----------------
- ping  192.168.0.0
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
- ping  192.168.0.0
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-6:Networking Task
----------------------------------
-
-
----------------------------------
-
-Input: (If relevant)
----------------
- ping  192.168.0.0
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-Do you want to ping broadcast? Then -b
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-7:Networking Task
----------------------------------
-
-
----------------------------------
-
-Input: (If relevant)
----------------
- ping -b  192.168.0.0
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-WARNING: pinging broadcast address
-PING 192.168.0.0 (192.168.0.0) 56(84) bytes of data.
-....so on
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-8: Networking Task
----------------------------------
-Command/Shell script/Program name
-
----------------------------------
-
-Input: (If relevant)
----------------
-route
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-link-local      *               255.255.0.0     U     1000   0        0 eth0
-192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
-
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-#9: Networking Task
----------------------------------
-Command/Shell script/Program name
-
----------------------------------
-
-Input: (If relevant)
----------------
-route -n
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
-169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
-192.168.0.0     0.0.0.0         255.255.254.0   U     1      0        0 eth0
-
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-#10: Networking Task
----------------------------------
-
-
----------------------------------
-
-Input: (If relevant)
----------------
-  sudo route add-net 192.168.0.0 netmask gw 192.168.0.02 
-
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-s4c1 is not in the sudoers file.  This incident will be reported.
-
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-#11: Aim/task
----------------------------------
-Command/Shell script/Program name
-
----------------------------------
-
-Input: (If relevant)
----------------
- cat /etc/resolv.conf
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-nameserver 127.0.0.1
-search example.org
--------------------
-Remarks if any:
-
-
-
-
-
--------------------------------------
--------------------------------------
-#12: Networking Task
-
----------------------------------
-
-Input: (If relevant)
----------------
- /etc/resolv.conf/resolv.conf d/head 
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
- /etc/resolv.conf/resolv.conf d/head 
-
--------------------
-Remarks if any:
-
-
-
-
-
---------------------------------
-Output: or Input & Output (whichever is applicable)
-
-
--------------------
-Remarks if any:
-
-
-
-
-
+Sir,
+     Here is no 4g network speed in my area(JAMMU).So, I edited this my ownself there will be any problem so forgive me
+
+--------------------------------------
+--------------------------------------
