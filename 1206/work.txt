@@ -1,0 +1,391 @@
+Script started on 2020-06-12 20:20:00+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ sftp cs18c40@14.139.189.217[12Pcript work.txt[8Pcd 1206ceccs18c40exit[Kcd ceccs18c40[6P1206script work.txtftp cs18c40@14.139.189.217[Ksftp cs18c40@14.139.189.217[12Pcript work.txt[8Pcd 1206ceccs18c40exit[Ksudo modprobe rtl8723de[3@ls [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Psudo nano/etc/vsftpd.confcp /etc/vsftpd.conf /etc/vsftpd.conf_default[A]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ [C[C[C[C[C[17Papt-get update
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pcript work.txt[8Pcd 1206ceccs18c40adduser munish vsf[12Pwhoamiadduser MUNISH vsfls[Kexitsftp cs18c40@14.139.189.217[11Pgedit report.txtls[Kcd 1206[3@mkdir[C[C[C[C[Ccd ceccs18c40/etc/default/grub[4Pcd ceccs18c40[3Pmkdir 1206[3Pcd[C[C[C[C[Cls[Kgedit report.txtsftp cs18c40@14.139.189.217exit[K[2Plsadduser MUNISH vsf[12Pwhoamiadduser munish vsf[5Pcd ceccs18c40[6P1206script work.txtudo apt-get updatecp /etc/vsftpd.conf /etc/vsftpd.conf_default[A]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ [C[C[C[C[C[11Pnano/etc/vsftpd.conf
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls sudo modprobe rtl8723de[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcd ceccs18c40[6P1206script work.txtftp cs18c40@14.139.189.217[Ksftp cs18c40@14.139.189.217[Ksftp cs18c40@14.139.189.217[12Pcript work.txt[8Pcd 1206ceccs18c40exit[Ksudo modprobe rtl8723deexit[Kcd ceccs18c40[6P1206script work.txtftp cs18c40@14.139.189.217[Ksudo apt-get install vsftpd
+[sudo] password for munish: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vsftpd is already the newest version (3.0.3-12).
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.3.0-29 linux-headers-5.3.0-29-generic
+  linux-image-5.3.0-29-generic linux-modules-5.3.0-29-generic
+  linux-modules-extra-5.3.0-29-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:63:c1:a0 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 85869sec preferred_lft 85869sec
+    inet6 fe80::ca4f:b948:49f4:15c1/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ sudo nna[K[Kano /etc/vsftpd0[K.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 155 lines ](B[m[H(B[0;7m  GNU nano 4.3                    /etc/vsftpd.conf                              [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m# Example config file /etc/vsftpd.conf[3d#[4d# The default compiled in settings are fairly paranoid. This sample file[5d# loosens things up a bit, to make the ftp daemon more usable.[6d# Please see vsftpd.conf.5 for all compiled in defaults.[7d#[8d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.[9d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's[10d# capabilities.[11d#[12d#[13d# Run standalone?  vsftpd can run either from an inetd or as a standalone[14d# daemon started from an initscript.[15d[39m(B[mlisten=NO[16d[36m#[17d# This directive enables listening on IPv6 sockets. By default, listening[18d# on the IPv6 "any" address (::) will accept connections from both IPv6[19d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6[20d# sockets. If you want that (perhaps because you want to listen on specific[21d# addresses) then you must run two copies of vsftpd with two configuration[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# files.[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1Hlisten_ipv6=YES[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# Allow anonymous FTP? (Disabled by default).[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1Hanonymous_enable=NO[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment this to allow local users to log in.[39m(B[m[K[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Hlocal_enable=YES[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Uncomment this to enable any form of FTP write command.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#write_enable=YES[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Default umask for local users is 077. You may wish to change this to 022,[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# if your users expect that (022 is used by most other ftpd's)[39m(B[m[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[12d[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ly[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25l_[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lb[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l=[?12l[?25h[?25lN[?12l[?25h[?25lO[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[12;19H [?12l[?25h[?25lY[?12l[?25h[?25lE[?12l[?25h[?25lS[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lYES[K[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: /etc/vsftpd.conf(B[m[22;37H[?12l[?25h[?25l[K[1;79H[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;31H(B[0;7m[ Wrote 155 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ sudo systemctl restart vsftpd
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ sudo systemctl restart vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpde vsftpdn vsftpda vsftpdb vsftpdl vsftpde vsftpd
+Synchronizing state of vsftpd.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable vsftpd
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ sudo systemctl enable vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpd[1P vsftpds vsftpdt vsftpda vsftpdt vsftpdu vsftpds vsftpd
+[?1h=[0;1;32m●[0m vsftpd.service - vsftpd FTP server[m
+   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: e[m
+   Active: [0;1;32mactive (running)[0m since Fri 2020-06-12 20:31:02 IST; 43s ago[m
+ Main PID: 3946 (vsftpd)[m
+    Tasks: 1 (limit: 3527)[m
+   Memory: 704.0K[m
+   CGroup: /system.slice/vsftpd.service[m
+           └─3946 /usr/sbin/vsftpd /etc/vsftpd.conf[m
+[m
+Jun 12 20:31:02 munish-VirtualBox systemd[1]: Starting vsftpd FTP server...[m
+Jun 12 20:31:02 munish-VirtualBox systemd[1]: Started vsftpd FTP server.[m
+[7mlines 1-11/11 (END)[27m[K[K[?1l>
+]0;munish@munish-VirtualBox: ~/ceccs18c40/1206[01;32mmunish@munish-VirtualBox[00m:[01;34m~/ceccs18c40/1206[00m$ cd /srv/ftp/
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ sudo k[Kmkdir share
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ ls
+[0m[01;34mshare[0m
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ sudo tu[Kouchb f[K[K[K file
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ ls
+file  [0m[01;34mshare[0m
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ lssudo touch filels[Ksudo mkdir share[4Pcd /srv/ftp/sudo systemctl status vsftpdenable[C[C[C[C[C[C[C[1@restart[C[C[C[C[C[C[C
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ if c[K[Kconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::ca4f:b948:49f4:15c1  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:63:c1:a0  txqueuelen 1000  (Ethernet)
+        RX packets 23335  bytes 20993708 (20.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 19222  bytes 3207572 (3.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1558  bytes 152273 (152.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1558  bytes 152273 (152.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ cd/etc
+bash: cd/etc: No such file or directory
+]0;munish@munish-VirtualBox: /srv/ftp[01;32mmunish@munish-VirtualBox[00m:[01;34m/srv/ftp[00m$ cd/etc /etc
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ 
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ ls
+[0m[01;34macpi[0m                           hosts                    [01;36mprintcap[0m
+adduser.conf                   hosts.allow              profile
+[01;34malsa[0m                           hosts.deny               [01;34mprofile.d[0m
+[01;34malternatives[0m                   [01;34mhp[0m                       protocols
+anacrontab                     [01;34mifplugd[0m                  [01;34mpulse[0m
+[01;34mapache2[0m                        [01;34minit[0m                     [01;34mpython[0m
+apg.conf                       [01;34minit.d[0m                   [01;34mpython2.7[0m
+[01;34mapm[0m                            [01;34minitramfs-tools[0m          [01;34mpython3[0m
+[01;34mapparmor[0m                       inputrc                  [01;34mpython3.7[0m
+[01;34mapparmor.d[0m                     [01;34minsserv.conf.d[0m           [01;34mrc0.d[0m
+[01;34mapport[0m                         [01;34miproute2[0m                 [01;34mrc1.d[0m
+appstream.conf                 issue                    [01;34mrc2.d[0m
+[01;34mapt[0m                            issue.net                [01;34mrc3.d[0m
+[01;34mavahi[0m                          [01;34mjava-11-openjdk[0m          [01;34mrc4.d[0m
+bash.bashrc                    [01;34mkernel[0m                   [01;34mrc5.d[0m
+bash_completion                kernel-img.conf          [01;34mrc6.d[0m
+[01;34mbash_completion.d[0m              kerneloops.conf          [01;34mrcS.d[0m
+bindresvport.blacklist         [01;34mldap[0m                     [01;36mresolv.conf[0m
+[01;34mbinfmt.d[0m                       ld.so.cache              [01;34mresolvconf[0m
+[01;34mbluetooth[0m                      ld.so.conf               [01;36mrmt[0m
+brlapi.key                     [01;34mld.so.conf.d[0m             rpc
+[01;34mbrltty[0m                         legal                    rsyslog.conf
+brltty.conf                    libao.conf               [01;34mrsyslog.d[0m
+[01;34mca-certificates[0m                libaudit.conf            rygel.conf
+ca-certificates.conf           [01;34mlibblockdev[0m              [01;34msane.d[0m
+ca-certificates.conf.dpkg-old  [01;34mlibnl-3[0m                  securetty
+[01;34mcalendar[0m                       [01;34mlibpaper.d[0m               [01;34msecurity[0m
+[01;34mchatscripts[0m                    [01;34mlibreoffice[0m              [01;34mselinux[0m
+[01;34mconsole-setup[0m                  locale.alias             sensors3.conf
+[01;34mcracklib[0m                       locale.gen               [01;34msensors.d[0m
+[01;34mcron.d[0m                         [01;36mlocaltime[0m                services
+[01;34mcron.daily[0m                     [01;34mlogcheck[0m                 shadow
+[01;34mcron.hourly[0m                    login.defs               shadow-
+[01;34mcron.monthly[0m                   logrotate.conf           shells
+crontab                        [01;34mlogrotate.d[0m              [01;34mskel[0m
+[01;34mcron.weekly[0m                    lsb-release              [01;34msnmp[0m
+[01;34mcups[0m                           ltrace.conf              [01;34mspeech-dispatcher[0m
+[01;34mcupshelpers[0m                    machine-id               [01;34mssh[0m
+[01;34mdbus-1[0m                         magic                    [01;34mssl[0m
+[01;34mdconf[0m                          magic.mime               subgid
+debconf.conf                   mailcap                  subgid-
+debian_version                 mailcap.order            subuid
+[01;34mdefault[0m                        manpath.config           subuid-
+deluser.conf                   mecabrc                  sudoers
+[01;34mdepmod.d[0m                       mime.types               [01;34msudoers.d[0m
+[01;34mdhcp[0m                           mke2fs.conf              sysctl.conf
+[01;34mdictionaries-common[0m            [01;34mmodprobe.d[0m               [01;34msysctl.d[0m
+[01;34mdpkg[0m                           modules                  [01;34msystemd[0m
+e2scrub.conf                   [01;34mmodules-load.d[0m           [01;34mterminfo[0m
+[01;34memacs[0m                          [01;36mmtab[0m                     [01;34mthermald[0m
+environment                    mtools.conf              [01;34mthunderbird[0m
+[01;34menvironment.d[0m                  [01;34mmysql[0m                    timezone
+[01;34mfirefox[0m                        nanorc                   [01;34mtmpfiles.d[0m
+[01;34mfonts[0m                          [01;34mnetplan[0m                  [01;34mubuntu-advantage[0m
+fprintd.conf                   [01;34mnetwork[0m                  ucf.conf
+fstab                          [01;34mnetworkd-dispatcher[0m      [01;34mudev[0m
+ftpusers                       [01;34mNetworkManager[0m           [01;34mudisks2[0m
+fuse.conf                      networks                 [01;34mufw[0m
+[01;34mfwupd[0m                          [01;34mnewt[0m                     [01;34mupdate-manager[0m
+gai.conf                       nsswitch.conf            [01;34mupdate-motd.d[0m
+[01;34mgdb[0m                            [01;34mopenvpn[0m                  [01;34mupdate-notifier[0m
+[01;34mgdm3[0m                           [01;34mopt[0m                      [01;34mUPower[0m
+[01;34mgeoclue[0m                        [01;36mos-release[0m               usb_modeswitch.conf
+[01;34mghostscript[0m                    [01;34mPackageKit[0m               [01;34musb_modeswitch.d[0m
+[01;34mglvnd[0m                          pam.conf                 [01;34mvim[0m
+[01;34mgnome[0m                          [01;34mpam.d[0m                    [01;34mvmware-tools[0m
+[01;34mgroff[0m                          papersize                vsftpd.conf
+group                          passwd                   [01;36mvtrgb[0m
+group-                         passwd-                  [01;34mvulkan[0m
+[01;34mgrub.d[0m                         [01;34mpcmcia[0m                   wgetrc
+gshadow                        [01;34mperl[0m                     whoopsie
+gshadow-                       [01;34mphp[0m                      [01;34mwpa_supplicant[0m
+[01;34mgss[0m                            [01;34mpki[0m                      [01;34mX11[0m
+[01;34mgtk-3.0[0m                        [01;34mpm[0m                       xattr.conf
+hdparm.conf                    pnm2ppa.conf             [01;34mxdg[0m
+host.conf                      [01;34mpolkit-1[0m                 [01;34myum[0m
+hostid                         popularity-contest.conf  zsh_command_not_found
+hostname                       [01;34mppp[0m
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo nano resolv.config
+[sudo] password for munish: 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                     resolv.config                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo nano resolv.config[1P.config[1P.config[1P.config[1P.config[1P.config[1P.configv.configs.configf.configt.configp.configd.config
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                     vsftpd.config                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo service manager-network resr[Ktart
+Failed to restart manager-network.service: Unit manager-network.service not found.
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo service manager-network restart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo ufw status
+Status: inactive
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo ufw allow ftp
+Rules updated
+Rules updated (v6)
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo ufw allow ftp[C[1P ftp[1P ftp[1P ftp[1P ftp[1P ftpd ftpi ftpa ftpl ftpl ftpo ftpw ftp[C ftp[1@s[C[C[C[C[C[C[C[C[1Pftp
+ERROR: Invalid syntax
+
+Usage: ufw COMMAND
+
+Commands:
+ enable                          enables the firewall
+ disable                         disables the firewall
+ default ARG                     set default policy
+ logging LEVEL                   set logging to LEVEL
+ allow ARGS                      add allow rule
+ deny ARGS                       add deny rule
+ reject ARGS                     add reject rule
+ limit ARGS                      add limit rule
+ delete RULE|NUM                 delete RULE
+ insert NUM RULE                 insert RULE at NUM
+ route RULE                      add route RULE
+ route delete RULE|NUM           delete route RULE
+ route insert NUM RULE           insert route RULE at NUM
+ reload                          reload firewall
+ reset                           reset firewall
+ status                          show firewall status
+ status numbered                 show firewall status as numbered list of RULES
+ status verbose                  show verbose firewall status
+ show ARG                        show firewall report
+ version                         display version information
+
+Application profile commands:
+ app list                        list application profiles
+ app info PROFILE                show information on PROFILE
+ app update PROFILE              update PROFILE
+ app default ARG                 set default application policy
+
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ sudo ufw disallow ftp[3P[C[C[C[C[C[C[C[C[C[3Pstatus
+Status: inactive
+]0;munish@munish-VirtualBox: /etc[01;32mmunish@munish-VirtualBox[00m:[01;34m/etc[00m$ cd ..
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ cd ceccs18c40
+bash: cd: ceccs18c40: No such file or directory
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ cd 1206
+bash: cd: 1206: No such file or directory
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ cd 1206ceccs18c40..[Ksudo ufw statusdisallow ftp[3P[C[C[C[C[C[C[C[C[C[3Pstatusservice manager-network restart[13Pnano vsftpd.configresolv.configls[Kcd /etc[1P/etcifconfigsudo systemctl restart vsftpdls[Ksudo touch filels[Ksudo mkdir share[4Pcd /srv/ftp/sudo systemctl status vsftpdenable[C[C[C[C[C[C[C[1@restart[C[C[C[C[C[C[C[3Pnano /etc/vsftpd.confip a[Ksudo apt-get install vsftpdftp cs18c40@14.139.189.217[12Pcript work.txt[8Pcd 1206ceccs18c40exit[Ksudo modprobe rtl8723deexit[Kcd ceccs18c40[6P1206script work.txtftp cs18c40@14.139.189.217udo apt-get install vsftpdip a[Ksudo nano /etc/vsftpd.confsystemctl restart vsftpd[1Penable[C[C[C[C[C[C[Cstatus[C[C[C[C[C[C[C[16Pcd /srv/ftp/sudo mkdir sharels[Ksudo touch filels[Ksudo systemctl restart vsftpdifconfig[K[2Pcd/etc /etcls[Ksudo nano resolv.configvsftpd.configservice manager-network restartufw status[Kallow ftp[3@dis[C[C[C[C[C[C[C[C[C[6Pstatus[10Pcd ..ceccs18c40[6P1206[Kmkdir cec[K[K[K[K[K[K[K[K[Ksudo apt-get install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+apache2 is already the newest version (2.4.41-1ubuntu1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.3.0-29 linux-headers-5.3.0-29-generic
+  linux-image-5.3.0-29-generic linux-modules-5.3.0-29-generic
+  linux-modules-extra-5.3.0-29-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ ifconfig
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::ca4f:b948:49f4:15c1  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:63:c1:a0  txqueuelen 1000  (Ethernet)
+        RX packets 29385  bytes 26670849 (26.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24710  bytes 4013201 (4.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1902  bytes 184643 (184.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1902  bytes 184643 (184.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ netstat -a | more
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:mysql         0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 40.com:42424            e2a.google.com:https    ESTABLISHED
+tcp        0      0 40.com:56846            5.85.222.35.bc.goo:http TIME_WAIT  
+tcp        0      0 40.com:51642            del03s07-in-f14.1:https ESTABLISHED
+tcp        0      0 40.com:47612            del03s15-in-f3.1e:https ESTABLISHED
+tcp        0      0 40.com:36366            nrt12s11-in-f174.:https ESTABLISHED
+tcp        0      0 40.com:56730            del03s16-in-f14.1:https ESTABLISHED
+tcp        0      0 40.com:55872            del03s06-in-f3.1e:https ESTABLISHED
+tcp        0      0 40.com:34246            kix05s07-in-f174.:https ESTABLISHED
+tcp        0      0 40.com:47464            del03s09-in-f14.1:https ESTABLISHED
+tcp        0      0 40.com:44176            74.125.24.188:5228      ESTABLISHED
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:33060              [::]:*                  LISTEN     
+tcp6       0      0 [::]:http               [::]:*                  LISTEN     
+tcp6       0      0 [::]:ftp                [::]:*                  LISTEN     
+tcp6       0      0 40.com:52078            40.com:49720            TIME_WAIT  
+tcp6       0      0 40.com:ftp              40.com:38470            TIME_WAIT  
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+[7m--More--[27m[K]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ netstat -a | more[1@n
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 10.0.2.15:41678         172.217.167.238:443     ESTABLISHED
+tcp        0      0 10.0.2.15:42424         216.239.32.116:443      ESTABLISHED
+tcp        0      0 10.0.2.15:51642         216.58.221.46:443       ESTABLISHED
+tcp        0      0 10.0.2.15:47612         172.217.167.3:443       ESTABLISHED
+tcp        0      0 10.0.2.15:36366         216.58.200.174:443      ESTABLISHED
+tcp        0      0 10.0.2.15:56730         172.217.167.46:443      ESTABLISHED
+tcp        0      0 10.0.2.15:55872         216.58.196.195:443      ESTABLISHED
+tcp        0      0 10.0.2.15:34246         172.217.27.174:443      ESTABLISHED
+tcp        0      0 10.0.2.15:44176         74.125.24.188:5228      ESTABLISHED
+tcp6       0      0 ::1:631                 :::*                    LISTEN     
+tcp6       0      0 :::33060                :::*                    LISTEN     
+tcp6       0      0 :::80                   :::*                    LISTEN     
+tcp6       0      0 :::21                   :::*                    LISTEN     
+udp        0      0 0.0.0.0:631             0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp        0      0 0.0.0.0:38839           0.0.0.0:*                          
+[7m--More--[27m[K]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ sudo /etc/init.d/apache2 stop
+[....] Stopping apache2 (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ sudo /etc/init.d/apache2 stop[11Pnetstat -an | more[1P[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 10.0.2.15:41678         172.217.167.238:443     ESTABLISHED
+tcp        0      0 10.0.2.15:47856         74.125.130.188:5228     ESTABLISHED
+tcp        0      0 10.0.2.15:51642         216.58.221.46:443       TIME_WAIT  
+tcp        0      0 10.0.2.15:47612         172.217.167.3:443       ESTABLISHED
+tcp6       0      0 ::1:631                 :::*                    LISTEN     
+tcp6       0      0 :::33060                :::*                    LISTEN     
+tcp6       0      0 :::21                   :::*                    LISTEN     
+udp        0      0 0.0.0.0:631             0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp        0      0 0.0.0.0:38839           0.0.0.0:*                          
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 10.0.2.15:68            0.0.0.0:*                          
+udp6       0      0 :::5353                 :::*                               
+udp6       0      0 :::39102                :::*                               
+raw6       0      0 :::58                   :::*                    7          
+Active UNIX domain sockets (servers and established)
+[7m--More--[27m[K]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ netstat -an | moresudo /etc/init.d/apache2 stop[11Pnetstat -an | more[1P[C[C[C[C[C[C[C
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:mysql         0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN     
+tcp        0      0 40.com:41678            del11s04-in-f14.1:https ESTABLISHED
+tcp        0      0 40.com:47856            sb-in-f188.1e100.n:5228 ESTABLISHED
+tcp        0      0 40.com:51642            kul01s10-in-f46.1:https TIME_WAIT  
+tcp        0      0 40.com:47612            del03s15-in-f3.1e:https ESTABLISHED
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
+tcp6       0      0 [::]:33060              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ftp                [::]:*                  LISTEN     
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:38839           0.0.0.0:*                          
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 40.com:bootpc           0.0.0.0:*                          
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:39102              [::]:*                             
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7          
+Active UNIX domain sockets (servers and established)
+[7m--More--[27m[K]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ netstat -a | more[1@n[C[C[C[C[C[C[C
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 10.0.2.15:41678         172.217.167.238:443     ESTABLISHED
+tcp        0      0 10.0.2.15:47856         74.125.130.188:5228     ESTABLISHED
+tcp        0      0 10.0.2.15:51642         216.58.221.46:443       TIME_WAIT  
+tcp        0      0 10.0.2.15:47612         172.217.167.3:443       ESTABLISHED
+tcp6       0      0 ::1:631                 :::*                    LISTEN     
+tcp6       0      0 :::33060                :::*                    LISTEN     
+tcp6       0      0 :::21                   :::*                    LISTEN     
+udp        0      0 0.0.0.0:631             0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 224.0.0.251:5353        0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp        0      0 0.0.0.0:38839           0.0.0.0:*                          
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 10.0.2.15:68            0.0.0.0:*                          
+udp6       0      0 :::5353                 :::*                               
+udp6       0      0 :::39102                :::*                               
+raw6       0      0 :::58                   :::*                    7          
+Active UNIX domain sockets (servers and established)
+[7m--More--[27m[K]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ netstat -an | more[1P[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[Csudo /etc/init.d/apache2 stop[K[K[Ktart
+[....] Starting apache2 (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ sudo /etc/init.d/apache2 startrstartestart
+[....] Restarting apache2 (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+]0;munish@munish-VirtualBox: /[01;32mmunish@munish-VirtualBox[00m:[01;34m/[00m$ cd /var/www
+]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ ls
+[0m[01;34m40.com[0m  [01;34mhtml[0m
+]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ sudo nano 40.com
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;27H(B[0;1m[37m[41m[ "40.com" is a directory ][39;49m(B[m[H(B[0;7m  GNU nano 4.3                       New Buffer                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ sudo nano 40.com[K[K[K[K[K[Kindex.html
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                       index.html                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ sudo nano index.html[C[1Phtml[1Phtml[1Phtml[1Phtml[1Phtml[1Phtml
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;28H(B[0;1m[37m[41m[ "html" is a directory ][39;49m(B[m[H(B[0;7m  GNU nano 4.3                       New Buffer                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[2d<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25lh>[?12l[?25h[?25lt>[?12l[?25h[?25lm>[?12l[?25h[?25ll>[?12l[?25h[?25l>[?12l[?25h[?25l[3d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25lh>[?12l[?25h[?25le>[?12l[?25h[?25la>[?12l[?25h[?25ld>[?12l[?25h[?25l>[?12l[?25h[?25l[4d[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ sudo nano htmlindex.html[4P40.com[K[K[Khtml
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                        40.html                                   [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[2d<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<h>[39m(B[m[?12l[?25h[?25l[36mt>[39m(B[m[?12l[?25h[?25l[36mm>[39m(B[m[?12l[?25h[?25l[36ml>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[3d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<h>[39m(B[m[?12l[?25h[?25l[36me>[39m(B[m[?12l[?25h[?25l[36ma>[39m(B[m[?12l[?25h[?25l[36md>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[4d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l[36mh>[39m(B[m[?12l[?25h[?25l[36me>[39m(B[m[?12l[?25h[?25l[36ma>[39m(B[m[?12l[?25h[?25l[36md>[22d[39m(B[m[K[4;7H[?12l[?25h[?25l[A[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<t>[39m(B[m[?12l[?25h[?25l[36mi>[39m(B[m[?12l[?25h[?25l[36mt>[39m(B[m[?12l[?25h[?25l[36ml>[39m(B[m[?12l[?25h[?25l[36me>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l7[4;22r8[4dM[1;24r[4;1H[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l[36mt>[39m(B[m[?12l[?25h[?25l[36mi>[39m(B[m[?12l[?25h[?25l[36mt>[39m(B[m[?12l[?25h[?25l[36ml>[39m(B[m[?12l[?25h[?25l[36me>[39m(B[m[?12l[?25h[?25l[A[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25lN[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lM[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25l'[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l[4;9H[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l(B[0;1m[35m<b>[39m(B[m[?12l[?25h[?25l[36m<bo>[39m(B[m[?12l[?25h[?25l[36md>[39m(B[m[?12l[?25h[?25l[36my>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<h>[39m(B[m[?12l[?25h[?25l[36m1>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25lW[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lW[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25lu[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lb[?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l[7d[?12l[?25h[?25l[6;32H[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l[36mh>[39m(B[m[?12l[?25h[?25l[36m1>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[7d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<p>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25lT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25le[?12l[?25h[?25lb[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l[36mo>[39m(B[m[?12l[?25h[?25l[36m>[39m(B[m[K[?12l[?25h[?25l[36mp>[39m(B[m[?12l[?25h[?25l</p[K[8d>[?12l[?25h[?25l[7;38H[36m</p>[8d[39m(B[m[K[7;41H[?12l[?25h[?25l[C[?12l[?25h[?25l[8d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m<p>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l<p[K[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l(B[0;1m[35m</b>[39m(B[m[?12l[?25h[?25l[36m</bo>[39m(B[m[?12l[?25h[?25l[36md>[39m(B[m[?12l[?25h[?25l[36my>[39m(B[m[?12l[?25h[?25l[C[?12l[?25h[?25l[9d[?12l[?25h[?25l<[?12l[?25h[?25l>[?12l[?25h[?25l[?12l[?25h[?25l[36m</>[39m(B[m[?12l[?25h[?25l[36mh>[39m(B[m[?12l[?25h[?25l[36mt>[39m(B[m[?12l[?25h[?25l[36mm>[39m(B[m[?12l[?25h[?25l[36ml>[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4;22r[22;1H
+[1;24r[3;31H[36m</title>[3;31H[39m(B[m[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: 40.html(B[m[22;28H[?12l[?25h[?25l[22;27H[?12l[?25h[?25l[22;26H[?12l[?25h[?25l[22;25H[?12l[?25h[?25l[22;24H[?12l[?25h[?25l[22;23H[?12l[?25h[?25l(B[0;7m.html (B[m[22;22H[?12l[?25h[?25l(B[0;7m.html (B[m[22;21H[?12l[?25h[?25l(B[0;7mi.html(B[m[22;22H[?12l[?25h[?25l(B[0;7mn.html(B[m[22;23H[?12l[?25h[?25l(B[0;7md.html(B[m[22;24H[?12l[?25h[?25l(B[0;7me.html(B[m[22;25H[?12l[?25h[?25l(B[0;7mx.html(B[m[22;26H[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;33H[?12l[?25h[?25l[1;79H[22;33H[1K (B[0;7m[ Writing... ](B[m[K[1;38H[39;49m(B[0;7mindex.html[1;71H        (B[m[22;32H(B[0;7m[ Wrote 7 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ ls
+[0m[01;34m40.com[0m  [01;34mhtml[0m  index.html
+]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ lssudo nano 40.html[3Phtmlindex.html[4P40.com[K[K[K[K[K[K40.com
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;27H(B[0;1m[37m[41m[ "40.com" is a directory ][39;49m(B[m[H(B[0;7m  GNU nano 4.3                       New Buffer                                 [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;munish@munish-VirtualBox: /var/www[01;32mmunish@munish-VirtualBox[00m:[01;34m/var/www[00m$ exit
+exit
+
+Script done on 2020-06-12 21:35:37+05:30 [COMMAND_EXIT_CODE="0"]
