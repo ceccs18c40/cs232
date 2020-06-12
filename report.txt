@@ -70,6 +70,23 @@ i. sudo nano /etc/apache2/mods-enabled/dir.conf
 j. sudo systemctl restart apache2
 k. apt-cache show php-cli
 l. sudo apt-get install php-cli
+--------------------------------------------------
+(8.4) Kernel compilation
+
+--------------------------------------------------
+Inputs:
+
+a. weget https://git.kernel.org/trovalds/t/linux-5.7.2-rc2.tar.gz
+b.sudo apt-get install git fekeroot build-essential ncurses-dev xz-utils libssl-dev
+c. tar xvzf linux-5.7.2-rc2.tar.gz
+d. cp /boot/config-$(uname -r) .config
+e. linux-5.7.2-rc2$ make
+f. sudo make install
+g. sudo update-initramfs -c -k 5.7.3-rc2
+h. sudo update-grub
+---------------------------------------------------
+Remarks: Sir, yesterday i was compiling a kernel but last moment i got error so i didn'nt upload this last 4th part of 8th experiment. So, now i'm uploading this.
+--------------------------------------------------------------------------------- 
 
  
 
